@@ -52,9 +52,6 @@ for (( i=1; i<${#numbers[@]}; i++ )); do
         %)
             result=$((result % numbers[i]))
             ;;
-        *)
-            echo "Error: Use one of +, -, *, %" >&2
-            ;;
     esac
 done
 
